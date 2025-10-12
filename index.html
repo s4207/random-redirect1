@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const urls = [
+      "https://www.ettoday.net/?from=logo",
+      "https://www.instagram.com/",
+      "https://www.facebook.com/",
+      "https://www.surveycake.com/"
+    ];
+    const target = urls[Math.floor(Math.random() * urls.length)];
+    window.location.href = target;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
